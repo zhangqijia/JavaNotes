@@ -3,7 +3,7 @@ package com.zqj;
 /**
  * Hello world!
  */
-public class App {
+public class StringReplace {
     public static void main(String[] args) {
         String origin = "aabbccdd,aaeeffgg,hhjjkk";
         String a = origin.replace('a', '.');
