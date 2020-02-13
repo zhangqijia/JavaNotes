@@ -1,3 +1,5 @@
+- [String.format(String format, Object... args) method](#stringformatstring-format-object-args-method)
+- [String中的replace相关方法实践](#string中的replace相关方法实践)
 
 # String.format(String format, Object... args) method 
 - The locale always used is the one returned by **Locale.getDefault(Locale.Category)** with FORMAT category specified.
