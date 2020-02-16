@@ -69,3 +69,28 @@ replace charSequence: 	bbccdd,eeffgg,hhjjkk
 replace regex: 	        aa****dd,aa****gg,hh****kk
 replace regexFirst: 	aa****dd,aaeeffgg,hhjjkk
   ```
+
+# Regex use
+- Relevant Classes:
+    - Pattern
+        - static Pattern	compile(String regex)
+        - static Pattern	compile(String regex, int flags)
+            - flags - Match flags, a bit mask that may include **CASE_INSENSITIVE, MULTILINE, DOTALL, UNICODE_CASE, CANON_EQ, UNIX_LINES, LITERAL, UNICODE_CHARACTER_CLASS and COMMENTS**
+        - Matcher	matcher(CharSequence input)
+    - Matcher
+        - boolean	find()
+        - String	group()
+ ```
+ // first compile the pattern
+Pattern pattern = Pattern.compile(“[a-z]*[0-9]”);
+// then match it against an input string
+Matcher matcher = pattern.matcher(input);
+// now can test if the pattern is found
+if (matcher.matches())
+    ...
+
+//Can query the extent of the match (char indices)
+int s = matcher.start();
+int e = matcher.end();
+String substring = input.substring(start, end);
+ ```
