@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 10%;
+            text-align: center;
+            border: 1px solid black;
+            height: 100%;
+            background-color: gray;
+            position: fixed;
+            overflow: auto;
+        }
+
+        ul li {
+            border-bottom: 1px solid black;
+        }
+
+        ul li:last-child {
+            border-bottom: none;
+        }
+
+        li a {
+            display: block;
+            background-color: cadetblue;
+            padding: 5%;
+        }
+
+        li a.active {
+            background-color: green;
+            color: white;
+        }
+
+        li a:hover:not(.active) {
+            background-color: black;
+            color: white;
+        }
+
+        div {
+            margin-left: 11%;
+            border: 2px solid black;
+            padding: 1px 16px;
+            height: 1000px;
+        }
+    </style>
+    <title>Index</title>
+</head>
+<body>
+<!--<h1>Navigator Bar</h1>-->
+<ul>
+    <li><a href="#" class="active"> home </a></li>
+    <li><a href="week2/welcome.html"> welcome </a></li>
+    <li><a href="week2/myself.html"> myself </a></li>
+    <li><a href="week2/mytown.html"> my town </a></li>
+    <li><a href="week2/mytown.html"> my town </a></li>
+    <li><a href="week2/mytown.html"> my town </a></li>
+    <li><a href="week2/mytown.html"> my town </a></li>
+    <li><a href="week2/mytown.html"> my town </a></li>
+    <li><a href="week2/mytown.html"> my town </a></li>
+    <li><a href="week2/mytown.html"> my town </a></li>
+</ul>
+<div>
+    <h2>Fixed Full-height Side Nav</h2>
+    <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+    <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width.
+        If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+    <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long
+        (for example if it has over 50 links inside of it).</p>
+    <p>Some text..</p>
+    <p>Some text..</p>
+    <p>Some text..</p>
+    <p>Some text..</p>
+    <p>Some text..</p>
+    <p>Some text..</p>
+    <p>Some text..</p>
+</div>
+<div>
+    <form action="mailto:qzhang75@sheffield.ac.uk" method="post" accept-charset="UTF-8">
+        <fieldset>
+            <legend>personal information</legend>
+        <label>
+            username:
+            <input type="text" name="username" placeholder="username" required>
+        </label><br>
+        radio:
+        <label>
+            <input type="radio" name="book"  value="a">a
+        </label>
+        <label>
+            <input type="radio" name="book" value="b">b
+        </label><br>
+        </fieldset>
+        cars:
+        <label>
+            <select >
+                <option value="Volvo">volvo</option>
+                <option value="Volks">volks</option>
+                <option value="FIFA">FIFA</option>
+            </select>
+        </label><br>
+        <label>
+            <textarea name="message" rows="10" cols="30" placeholder="leave your message"></textarea>
+        </label><br>
+
+        <button type="submit">submit</button>
+    </form>
+</div>
+</body>
+</html>
