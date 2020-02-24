@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FormValidation</title>
+    <link rel="stylesheet" href="css/form.css">
+    <script src="js/form.js"></script>
+</head>
+<body>
+
+<h1> Form Validation</h1>
+<div>
+    <form action="#">
+        <div>
+            <label for="name" onsubmit="validateName()">
+                Name
+            </label>
+            <input type="text" id="name" name="name" placeholder="enter name" onblur="validateName()">
+            <span></span>
+        </div>
+        <div>
+            <label for="surname">
+                Surname
+            </label>
+            <input type="text" id="surname" name="surname" placeholder="enter surname" onblur="validateName()">
+            <span></span>
+        </div>
+        <div>
+            <label for="age">
+                Age
+            </label>
+            <input type="text" id="age" name="age">
+        </div>
+        <div>
+            <label for="birthday">
+                Birthday
+            </label>
+            <input type="date" id="birthday" name="birthday" max="2011-01-01" min="1900-01-01">
+        </div>
+        <div>
+            <div style="display: inline">
+            <label>
+                FoodPreference
+            </label>
+            </div>
+            <div style="display: inline">
+            <input type="radio" name="preference" id="vegetarian" value="vegetarian">
+            <label for="vegetarian">vegetarian</label>
+                <br>
+            <input type="radio" name="preference" id="pescetarian" value="pescetarian">
+            <label for="pescetarian">pescetarian</label><br>
+            <input type="radio" name="preference" id="halal" value="halal">
+            <label for="halal">halal</label><br>
+            </div>
+        </div>
+
+        <div>
+            <label>
+                email <input type="text" name="email">
+            </label>
+        </div>
+
+        <div>
+            <button type="button" onclick="validateForm()">Check On</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
