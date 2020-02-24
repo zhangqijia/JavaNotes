@@ -53,7 +53,7 @@ class Example{
 }
 ```
 ## Generic interface
-```
+```java
 interface MinT<T extends Comparable<T>>{
     T min();
 }
@@ -77,9 +77,12 @@ class Gen<T> {
 }
 ```
 2. Static members cannot use type parameters declared by the enclosing class 
-```
+```java
 class Gen<T> { 
     static T ob; // illegal!
     static T getob() { ... // illegal!
 ```
-3. 
+
+
+# How does Generics work?
+## 

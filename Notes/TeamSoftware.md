@@ -28,6 +28,77 @@ social climate
 ## Top tips
 - **set out ground rules**
 - arrange a time and location that suits all
-- meet grequently for shorter amounts of time
+- meet frequently for shorter amounts of time
 - plan(agenda) and record(minute)
+
+
+
+---
+
+### student
+- form a team, with preference
+
+- propose project with project
+-  3 category emergency
+- !,!!!,!!!!!
+
+
+- assign project to teams, up to 3
+
+- 5weeks  
+- 5weeks staffs monitor projects 
+
+- assign staffs member to project
+- staffs have overview of the projects 
+
+## staff questions
+- what percentages have finished
+- common questions, individual questions
+
+## lecturers 
+
+## team mark
+- different components of mark 
 - 
+
+---------------
+## projects
+1. publish projects by lectucters
+2. sort projects
+   1. fixable
+3. upload project
+4. student preference of projects
+5. best one
+6. up to 3 teams 
+7. percentages check 
+
+## groups
+1. students preferences
+
+## students 
+
+
+## Discussion pool
+1. public pool
+2. project pool
+3. individual group pool
+
+## schedule timetable
+
+
+## Mark 
+1. components 
+
+## super user 
+
+## lecturers
+1. propose projects
+2. supervise
+
+## academic staffs 
+1. supervise
+
+
+## outside clients 
+1. propose projects
+2. 
