@@ -1,37 +1,3 @@
-- [Html structure](#html-structure)
-  - [head](#head)
-    - [meta](#meta)
-    - [other metadata](#other-metadata)
-    - [title](#title)
-  - [body](#body)
-    - [Heading](#heading)
-    - [textual elements](#textual-elements)
-    - [List](#list)
-    - [Hyperlinks](#hyperlinks)
-    - [Anchors](#anchors)
-    - [Block and inline elements](#block-and-inline-elements)
-    - [Images](#images)
-  - [Paths](#paths)
-- [CSS (Cascading Style Sheet)](#css-cascading-style-sheet)
-  - [Attaching a stylesheet](#attaching-a-stylesheet)
-  - [Selector](#selector)
-    - [element selector](#element-selector)
-    - [class selector](#class-selector)
-    - [identify selector](#identify-selector)
-    - [combinators](#combinators)
-    - [Pseudo-class selector](#pseudo-class-selector)
-    - [Pseudo-elements selector](#pseudo-elements-selector)
-    - [Attribute selector](#attribute-selector)
-  - [Box model](#box-model)
-    - [margin](#margin)
-    - [border](#border)
-    - [padding](#padding)
-  - [Inheritance](#inheritance)
-- [HTML5](#html5)
-  - [Semantics](#semantics)
-    - [section](#section)
-  - [Canvas](#canvas)
-
 # Html structure
 ## head
 ### meta
@@ -207,4 +173,22 @@
    1. <input type="email" required/>
    2. <input pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required/>
 ```
-- date 
+
+# JavaScript
+value3 = +value1 + value2
+
+
+## this
+### in a function - [object Window]
+In a function `this` refers to the global object, in our case the Browser Window
+### in an event  - 
+in an event handler `this` refers to the object that invoked it 
+### 
+
+
+# JQuery
+- Basic syntax:
+```javascript
+ $(selector).action()
+ ```
+ 

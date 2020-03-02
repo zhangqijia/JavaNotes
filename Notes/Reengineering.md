@@ -60,5 +60,31 @@
 ```
 ### Jupyter
 - use it to run bash and show the process to peers
+#### cygwin
+#### kernel
 
 ## WEKA Java ML Framework
+
+# Source code
+## static analysis
+### useful information
+- Metrics
+  - structures
+
+
+### analysis tech
+1. Intra-procedural
+   1. data-flow
+2. inter-procedural
+   1. macro view
+   2. analyse function/method calls
+   3. class hierarchies
+3. Tools
+   1. Reflection
+   2. ASM 
+
+### reverse-Engineering a class diagram
+
+byte .class files --> 
+#### inheritance relations & association relations??? 
+subclass superclass 

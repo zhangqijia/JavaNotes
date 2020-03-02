@@ -12,17 +12,17 @@
 <div>
     <form action="#">
         <div>
-            <label for="name" onsubmit="validateName()">
+            <label for="name" onsubmit="validate()">
                 Name
             </label>
-            <input type="text" id="name" name="name" placeholder="enter name" onblur="validateName()">
+            <input type="text" id="name" name="name" placeholder="enter name" onblur="validateName(this)">
             <span></span>
         </div>
         <div>
             <label for="surname">
                 Surname
             </label>
-            <input type="text" id="surname" name="surname" placeholder="enter surname" onblur="validateName()">
+            <input type="text" id="surname" name="surname" placeholder="enter surname" onblur="validateName(this)">
             <span></span>
         </div>
         <div>
@@ -35,22 +35,22 @@
             <label for="birthday">
                 Birthday
             </label>
-            <input type="date" id="birthday" name="birthday" max="2011-01-01" min="1900-01-01">
+            <input type="date" id="birthday" name="birthday" max="2011-01-01" min="1900-01-01" onblur="validateDate()">
         </div>
         <div>
             <div style="display: inline">
-            <label>
-                FoodPreference
-            </label>
+                <label>
+                    FoodPreference
+                </label>
             </div>
             <div style="display: inline">
-            <input type="radio" name="preference" id="vegetarian" value="vegetarian">
-            <label for="vegetarian">vegetarian</label>
+                <input type="radio" name="preference" id="vegetarian" value="vegetarian">
+                <label for="vegetarian">vegetarian</label>
                 <br>
-            <input type="radio" name="preference" id="pescetarian" value="pescetarian">
-            <label for="pescetarian">pescetarian</label><br>
-            <input type="radio" name="preference" id="halal" value="halal">
-            <label for="halal">halal</label><br>
+                <input type="radio" name="preference" id="pescetarian" value="pescetarian">
+                <label for="pescetarian">pescetarian</label><br>
+                <input type="radio" name="preference" id="halal" value="halal">
+                <label for="halal">halal</label><br>
             </div>
         </div>
 
@@ -61,11 +61,37 @@
         </div>
 
         <div>
-            <button type="button" onclick="validateForm()">Check On</button>
+            <button type="button" id="myBtn">Check Menu</button>
             <button type="submit">Submit</button>
         </div>
     </form>
 </div>
 
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Modal Header</h2>
+        </div>
+        <div class="modal-body">
+            <h1>My home town</h1>
+            <table id="state">
+                <tr class="decorate">
+                    <th></th>
+                    <th>Population</th>
+                    <th>Area Sqm</th>
+                </tr>
+                <tr>
+                    <th class="decorate town">Town</th>
+                    <td id="pop">N/A</td>
+                    <td id="pop2">N/A</td>
+                </tr>
+            </table>
+        </div>
+        <div class="modal-footer">
+            <h3>Modal Footer</h3>
+        </div>
+    </div>
+</div>
 </body>
 </html>

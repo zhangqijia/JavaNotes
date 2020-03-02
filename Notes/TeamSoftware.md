@@ -1,5 +1,30 @@
-
-
+- [week2](#week2)
+  - [Group Climate](#group-climate)
+  - [Belbin's Team Roles](#belbins-team-roles)
+  - [Clifton StrengthsFinder](#clifton-strengthsfinder)
+  - [Meeting](#meeting)
+  - [Top tips](#top-tips)
+- [week3](#week3)
+  - [capturing requirements](#capturing-requirements)
+  - [presenting stories to your client](#presenting-stories-to-your-client)
+      - [?? mock-ups???](#-mock-ups)
+  - [Ethics in software engineering](#ethics-in-software-engineering)
+    - [GDPR](#gdpr)
+    - [student](#student)
+  - [staff questions](#staff-questions)
+  - [lecturers](#lecturers)
+  - [team mark](#team-mark)
+  - [projects](#projects)
+  - [groups](#groups)
+  - [students](#students)
+  - [Discussion pool](#discussion-pool)
+  - [schedule timetable](#schedule-timetable)
+  - [Mark](#mark)
+  - [super user](#super-user)
+  - [lecturers](#lecturers-1)
+  - [academic staffs](#academic-staffs)
+  - [outside clients](#outside-clients)
+# week2
 ## Group Climate 
 social climate
 - defensive climate
@@ -31,9 +56,27 @@ social climate
 - meet frequently for shorter amounts of time
 - plan(agenda) and record(minute)
 
+# week3
+## capturing requirements
+1. save user stories
+2. track stories in Kanban board
+
+## presenting stories to your client 
+1. organising your stories:
+   1. do they naturally cluster in groups? 
+2. mandatory, desirable, optional
+3. show a changing story list to your client, **highlight changes!**
 
 
----
+#### ?? mock-ups???
+
+## Ethics in software engineering
+1. because we store personal information, we need 
+### GDPR  
+1. give user deceleration
+
+
+------
 
 ### student
 - form a team, with preference
@@ -101,4 +144,4 @@ social climate
 
 ## outside clients 
 1. propose projects
-2. 
+
