@@ -1,3 +1,9 @@
+
+# Algorithm
+
+1. use it
+2. implement it
+
 # Recursion
 - Direct recursion
     -   method m() call itself
@@ -15,3 +21,7 @@ m(){
 }
 ```
 
+# sort
+
+
+# search
