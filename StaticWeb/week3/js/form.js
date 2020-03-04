@@ -76,4 +76,3 @@ function promptInfo() {
     var sqm = prompt("Insert the sqm", "1000");
     document.getElementById("pop2").innerHTML = sqm;
 }
-

@@ -1,0 +1,16 @@
+#footImg li img {
+    width: 40px;
+    height: 40px;
+
+}
+
+#footImg li {
+    display: inline-block;
+    margin-right: 3px;
+}
+
+#main {
+    padding: 26px;
+    width: 400px;
+    height: 400px;
+}

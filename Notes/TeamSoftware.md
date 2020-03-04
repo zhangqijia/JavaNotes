@@ -10,20 +10,15 @@
       - [?? mock-ups???](#-mock-ups)
   - [Ethics in software engineering](#ethics-in-software-engineering)
     - [GDPR](#gdpr)
-    - [student](#student)
-  - [staff questions](#staff-questions)
-  - [lecturers](#lecturers)
-  - [team mark](#team-mark)
-  - [projects](#projects)
-  - [groups](#groups)
-  - [students](#students)
-  - [Discussion pool](#discussion-pool)
-  - [schedule timetable](#schedule-timetable)
-  - [Mark](#mark)
-  - [super user](#super-user)
-  - [lecturers](#lecturers-1)
-  - [academic staffs](#academic-staffs)
-  - [outside clients](#outside-clients)
+- [week4](#week4)
+  - [Database design1](#database-design1)
+  - [Modelling System behaviour](#modelling-system-behaviour)
+  - [Why worry about states?](#why-worry-about-states)
+  - [Design process](#design-process)
+  - [Project Risks](#project-risks)
+  - [Test Documentation](#test-documentation)
+  - [Final Client Demo](#final-client-demo)
+  - [Summary](#summary)
 # week2
 ## Group Climate 
 social climate
@@ -75,73 +70,71 @@ social climate
 ### GDPR  
 1. give user deceleration
 
+# week4
+## Database design1
+- **Modelling a database**
+  - ERD s
+  - relations
 
-------
+- Constructing
+  - UML class
 
-### student
-- form a team, with preference
+- Minimize Data Dependency
+  - data design goals
+    - remove duplicated data, redundant paths
+    - optimise table structure for the independent insertion..
 
-- propose project with project
--  3 category emergency
-- !,!!!,!!!!!
+  - minimization technique(ERM)
+    - merge tables  1:1
+    - link tables 1:M
 
-
-- assign project to teams, up to 3
-
-- 5weeks  
-- 5weeks staffs monitor projects 
-
-- assign staffs member to project
-- staffs have overview of the projects 
-
-## staff questions
-- what percentages have finished
-- common questions, individual questions
-
-## lecturers 
-
-## team mark
-- different components of mark 
-- 
-
----------------
-## projects
-1. publish projects by lectucters
-2. sort projects
-   1. fixable
-3. upload project
-4. student preference of projects
-5. best one
-6. up to 3 teams 
-7. percentages check 
-
-## groups
-1. students preferences
-
-## students 
+## Modelling System behaviour
+- state models represent behavior
+  - state transition
+- A **state transition diagram**
+- A **transition table:**
 
 
-## Discussion pool
-1. public pool
-2. project pool
-3. individual group pool
+- state machines
+  - since modelling values as states in messy
+  - too many possibilities
 
-## schedule timetable
-
-
-## Mark 
-1. components 
-
-## super user 
-
-## lecturers
-1. propose projects
-2. supervise
-
-## academic staffs 
-1. supervise
+## Why worry about states?
+- Need to consider states when you are thinking about testing
 
 
-## outside clients 
-1. propose projects
+## Design process
+- Design the look
+
+- Design the data
+- Design the processing
+- check de* is sufficient
+- Derive the test cases from processing mode
+
+## Project Risks
+- **Hazards**
+  - likelihood:
+  - severity: 
+- these determine the predicted impact of the risk.
+- mitigate high impact risks 
+
+## Test Documentation
+- Unit Tests
+  - should be self-document
+
+
+- System Tests
+
+## Final Client Demo
+- week11
+- Be Professional
+  - 3-5 slides "selling" your product
+  - Live demonstration
+  - Dress to impress
+  - Q&A
+
+## Summary
+1. document design process
+2. create and maintain a risk register
+3. ensure tests - both unit and system with clear document
 
