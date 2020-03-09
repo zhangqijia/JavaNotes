@@ -67,7 +67,7 @@
 - Inline
     - style attribute
 - Internal 
-    - using a <style> element in <head>
+    - using a `<style> element in <head>`
 - External
   - `<link ...>`
 
@@ -192,3 +192,18 @@ in an event handler `this` refers to the object that invoked it
  $(selector).action()
  ```
  
+# Responsive Web Design
+## Flexible layout
+
+1. Meta tag ` <meta name="viewport" content="...">`
+  - ALWAYS try to use relative widthvalues
+
+## Grid layouts 
+- Columns
+- rows
+- gaps
+    
+## Flexible media 
+1. images 
+
+## Media Query
