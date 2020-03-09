@@ -88,3 +88,40 @@
 byte .class files --> 
 #### inheritance relations & association relations??? 
 subclass superclass 
+
+# Dynamic analysis
+
+- cpu time usage 
+- memory usage
+- electricity usage 
+
+## Loggers
+- Frameworks used to facilitate runtime tracking instructions. 
+
+## Execution traces
+- How to track Execution traces?
+  - Application-level: println();
+  - VM-Level: Java instrumentation/ Aspect-oriented logging
+  - OS-level: dTrace scripts Wireshark 
+
+### Instrumentation Agent in Java
+-  Agent code
+  ```java
+  public static void premain(String agentArguments, Instrumentation instrumenttation){
+    instrumentation.addTransformer(new Transformer(agentArguments));
+  }
+
+  // in Transformer class
+
+  private void changeMethod(CtBehavior method, String className) throws ...{
+    ...
+  }
+  ```
+
+- An Agent code is attached in a jar file 
+  - using Maven plugin: maven-assembly-plugin 
+
+
+- Selectivity is vital
+  - The size of trace file is impossible to predict in general.
+  
