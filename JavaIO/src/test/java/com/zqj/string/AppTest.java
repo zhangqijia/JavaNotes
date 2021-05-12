@@ -1,4 +1,4 @@
-package com.zqj;
+package com.zqj.string;
 
 import static org.junit.Assert.assertTrue;
 

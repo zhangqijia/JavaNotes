@@ -1,4 +1,4 @@
-package com.zqj;
+package com.zqj.string;
 
 /**
  * Hello world!

@@ -1,6 +1,4 @@
-package com.zqj;
-
-import org.junit.Test;
+package com.zqj.string;
 
 import java.io.*;
 
